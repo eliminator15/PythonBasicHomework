@@ -1,4 +1,4 @@
-a,b,c,d,e,f
+a,b
 true
 false
 false 
@@ -14,12 +14,10 @@ true
 true
 코딩
 1
-2
 3
-4
 5
-user = input("숫자가 무엇인가요?")
-if 100:
+user = int(input(""))
+if user % 2 == 0:
     print("짝수")
 else:
     print("홀수")
