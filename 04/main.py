@@ -1,21 +1,35 @@
-x = int(input(나이를 입력하세요 : ))
+# 1
+x = int(input('나이를 입력하세요 : '))
 
-if age:
-  >= 10  and < 20:
-     print('10대')
-elif age:
-  >= 20 and < 30:
-     print('20대')
-elif age:
-  >= 30 and < 40:
-     print('30대')
-elif age:
-  10<:
-     print('10대 미만')
-else age:
-     print('40대 이상입니다')
+if x >= 10 and x < 20:
+    print('10대')
+elif x >= 20 and x < 30:
+    print('20대')
+elif x >= 30 and x < 40:
+    print('30대')
+elif x < 10:
+    print('10대 미만')
+else :
+    print('40대 이상입니다')
 
-10대
+    
+# 2
+B
+
+
+# 3
+while True:
+
+  
+
+# 4
+count = int(input('반복할 횟수를 입력하세요: '))
+ 
+i = 0
+while @@@:
+    print('Hello, world!', i)
+
+
 count = int(input('반복할 횟수를 입력하세요: '))
  
 i = 0
