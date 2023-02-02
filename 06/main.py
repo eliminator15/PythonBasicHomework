@@ -37,6 +37,11 @@ i == "I love Python"
 for i in range(1, 1000001):
     print(i)
     
+number = int(input('숫자를 입력하세요.'))
+
+for i in range(0, number, 1):
+    print('I love Python')
+    
 for x in range(2002, 2054, +4):
     print(x)
 
@@ -54,7 +59,12 @@ while True:
 for i in range(10):    
     if i == 7:
         break 
-        print("The Number is :" , i)
+    print("The Number is :" , i)
+    
+for i in range(10):    
+    if i == 7:
+        continue
+    print("The Number is :" , i)
 
 for i in range(8, 10):
         print("The Number is :" , i)
