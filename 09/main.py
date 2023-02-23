@@ -11,7 +11,7 @@ books.remove('돈키호테')
 family = []
 while True:
   name = input('가족 구성원의 이름 : ')
-  if family == '끝':
+  if name == '끝':
     break
     
   family.append(name)
