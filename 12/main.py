@@ -77,6 +77,7 @@ eevee8 = Eevee('브이8', '3', random.randint(100, 1000000))
 eevee9 = Eevee('브이9', '3', random.randint(100, 1000000))
 eevee10 = Eevee('브이10', '3', random.randint(100, 1000000))
 
+
 print(eevee1)
 print(eevee2)
 print(eevee3)
