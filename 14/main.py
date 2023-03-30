@@ -1,5 +1,3 @@
-f = open('pokemonModule.py', 'w', encoding = 'UTF-8')
-
 import random
 
 class Pokemon:
@@ -53,9 +51,24 @@ class Eevee(Pokemon):
         sentence = '이름: {}, 성별: {}, 나이: {}살, 체력: {}'.format(self.name, self.gender, self.age, self.hp)
         return sentence
 
-import main.py
-pikachu1 = new Pikachu('용선생', '남', 37, 100000000)
-pikachu2 = new Pikachu('나선애', '여', 13, 95000000)
+import PokemonModule
+
+pikachu1 = PokemonModule.Pikachu('용선생', '남', 37, 100000000)
+pikachu2 = PokemonModule.Pikachu('나선애', '여', 13, 95000000)
+pikachu3 = PokemonModule.Pikachu('왕수재', '남', 13, 95000000)
+
+eevee1 = PokemonModule.Eevee('허영심', '여', 13, 92000000)
+eevee2 = PokemonModule.Eevee('장하다', '남', 13, 110000000)
+eevee3 = PokemonModule.Eevee('곽두기', '남', 9, 92000000)
+
+#실행하는 함수 => 변수명 + . + 함수 (능력) + ()
+pikachu1.볼트태클()
+pikachu2.볼트태클()
+pikachu3.볼트태클()
+
+eevee1.이판사판태클()
+eevee2.이판사판태클()
+eevee3.이판사판태클()
 
 #2
 새파일.txt에 
@@ -68,4 +81,4 @@ etc
 -1. 안녕하세요가 저장됨.
 -2. 읽을 수 있음
 -3. 안녕하세요가 추가됨.
--2. 
+
