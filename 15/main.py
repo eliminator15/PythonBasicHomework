@@ -1,9 +1,13 @@
 #1
-string = input('숫자를 입력하세요.')
-
-number = int(string)
-
-print(number + 10)
+while True:
+  try:
+    string = input('숫자를 입력하세요.')
+  
+    number = int(string)
+  
+    print(number + 10)
+  except:
+    print( '숫자를 입력해주세요.' )
 
 #2
 정상적으로 종료되었습니다.
